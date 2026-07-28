@@ -13,6 +13,11 @@ from datetime import date
 
 import build_official_reference_data as builder
 
+# Mobile's precipitation thread reaches 1871, earlier than the inherited LIX
+# builder default. Start the shared reference build early enough to preserve
+# the complete official MOB and PNS climate threads.
+builder.EARLIEST_YEAR = 1871
+
 VERIFIED_STARTS = {
     "MOBthr": date(1871, 1, 1),
     "PNSthr": date(1879, 11, 1),
