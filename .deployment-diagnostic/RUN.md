@@ -1,3 +1,3 @@
-# Inspect Pages deployment
+# Initialize Pages deployment
 
-This temporary pull request reads the repository's recent workflow runs and GitHub Pages configuration.
+This temporary pull request initializes GitHub Pages with GitHub Actions as its build source and verifies the repository configuration.
