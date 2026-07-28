@@ -22,6 +22,8 @@ import build_official_reference_data as builder
 # the complete official MOB and PNS climate threads.
 builder.EARLIEST_YEAR = 1871
 
+# These limits prevent ACIS requests from starting before each ThreadEx series
+# while allowing the shared builder to cover the earliest valid MOB record.
 VERIFIED_STARTS = {
     "MOBthr": date(1871, 1, 1),
     "PNSthr": date(1879, 11, 1),
