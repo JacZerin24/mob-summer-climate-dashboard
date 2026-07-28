@@ -45,7 +45,7 @@ jobs:
           rsync -a --delete \
             --exclude='.git' \
             --exclude='.bootstrap' \
-            --exclude='.github/workflows/bootstrap-mob.yml' \
+            --exclude='.github/workflows/**' \
             lix/ mob/
 
       - name: Configure Mobile and Pensacola climate sites
@@ -92,12 +92,12 @@ jobs:
           npm test
           npm run build
 
-      - name: Remove one-time bootstrap files
+      - name: Remove one-time conversion files
         if: steps.configure.outputs.status == '0'
         working-directory: mob
         run: |
           rm -rf .bootstrap
-          rm -f .github/workflows/bootstrap-mob.yml
+          git restore .github/workflows/bootstrap-mob.yml
 
       - name: Commit ported dashboard
         if: steps.configure.outputs.status == '0'
