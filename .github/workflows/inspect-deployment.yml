@@ -1,0 +1,31 @@
+name: Inspect MOB deployment status
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - ".deployment-diagnostic/**"
+
+permissions:
+  contents: read
+  actions: read
+  pages: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show recent workflow runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "=== Recent workflow runs ==="
+          gh api "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=20" \
+            --jq '.workflow_runs[] | [.id, .name, .event, .status, (.conclusion // "pending"), .head_sha, .created_at] | @tsv'
+
+      - name: Show GitHub Pages configuration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "=== Pages configuration ==="
+          gh api "repos/${GITHUB_REPOSITORY}/pages" || true
