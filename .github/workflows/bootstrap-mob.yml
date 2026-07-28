@@ -43,7 +43,9 @@ jobs:
             lix/ mob/
 
       - name: Configure Mobile and Pensacola climate sites
-        run: python mob/.bootstrap/port_to_mob.py mob
+        run: |
+          python mob/.bootstrap/port_to_mob.py mob
+          python mob/.bootstrap/postprocess_mob.py
 
       - name: Compile Python scripts
         working-directory: mob
