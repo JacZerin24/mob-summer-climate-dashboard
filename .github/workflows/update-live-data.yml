@@ -11,10 +11,6 @@ on:
       - "scripts/**"
       - "public/data/stations.json"
       - "public/data/overrides/**"
-  pull_request:
-    types: [opened, synchronize, reopened]
-    paths:
-      - ".data-refresh/**"
   schedule:
     # Four routine refreshes daily plus a weekly full reference rebuild.
     - cron: "17 4,16,22 * * *"
@@ -102,19 +98,16 @@ jobs:
         run: npm run build
 
       - name: Configure GitHub Pages
-        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
         with:
           enablement: true
 
       - name: Upload Pages artifact
-        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
-    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
