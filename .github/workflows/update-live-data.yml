@@ -1,0 +1,117 @@
+name: Update, audit, and deploy MOB climate dashboard
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/data/**"
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - ".data-refresh/**"
+  schedule:
+    # Four routine refreshes daily plus a weekly full reference rebuild.
+    - cron: "17 4,16,22 * * *"
+    - cron: "5 8 * * *"
+    - cron: "45 3 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mob-climate-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh-audit-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Decide whether official reference data need rebuilding
+        id: references
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [[ "$EVENT_NAME" != "schedule" || "$EVENT_SCHEDULE" == "45 3 * * 0" || ! -f public/data/climatology/2023/KMOB.json ]]; then
+            echo "refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "refresh=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build official normals, records, and historical tables
+        if: steps.references.outputs.refresh == 'true'
+        run: python scripts/build_extended_reference_data.py --through-year 2025
+
+      - name: Rebuild completed 2023–2025 seasons from official daily summaries
+        if: steps.references.outputs.refresh == 'true'
+        run: |
+          for year in 2023 2024 2025; do
+            python scripts/update_live_data.py --year "$year" --through "$year-09-30"
+          done
+
+      - name: Refresh completed 2026 daily summaries and heat products
+        run: python scripts/update_live_data.py --year 2026
+
+      - name: Audit every published table and reference file
+        run: python scripts/audit_extended_dashboard_data.py
+
+      - name: Commit changed data and audit report
+        run: |
+          if git diff --quiet -- public/data; then
+            echo "No data changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data
+            git commit -m "data: refresh audited official MOB climate sources"
+            git push origin HEAD:main
+          fi
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run calculation tests
+        run: npm test
+
+      - name: Build Vite site
+        run: npm run build
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: refresh-audit-build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
