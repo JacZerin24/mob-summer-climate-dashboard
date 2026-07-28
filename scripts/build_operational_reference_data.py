@@ -5,6 +5,10 @@ RCC ACIS returns a hard "No data available" error when a non-threaded station
 is queried wholly before its period of record. The ThreadEx series generally
 return empty rows instead. This wrapper applies the verified first date for
 each operational climate series before delegating to the common builder.
+
+The earlier shared start year is intentional: Mobile's precipitation thread
+predates its official temperature record, and both must remain available to
+the dashboard's record and rainfall statistics.
 """
 
 from __future__ import annotations
