@@ -1,0 +1,19 @@
+.climate-table {
+  width: max(100%, 1560px);
+}
+
+.rain-record-cell {
+  line-height: 1.15;
+}
+
+.record-rain-value,
+.record-rain-years {
+  display: block;
+}
+
+.record-rain-years {
+  margin-top: 0.18rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 750;
+}

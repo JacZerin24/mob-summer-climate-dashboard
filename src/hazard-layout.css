@@ -1,0 +1,26 @@
+.hazard-cell {
+  min-width: 11rem;
+  padding-block: 0.5rem !important;
+  vertical-align: middle;
+  white-space: normal !important;
+}
+
+.hazard-list {
+  display: grid;
+  justify-items: center;
+  gap: 0.35rem;
+  width: 100%;
+}
+
+.hazard-list .hazard-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 7.75rem;
+  max-width: 9.75rem;
+  min-height: 1.65rem;
+  padding: 0.28rem 0.58rem;
+  line-height: 1.15;
+  text-align: center;
+  white-space: normal;
+}

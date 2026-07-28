@@ -1,0 +1,112 @@
+/* Viewport-safe scrolling for the Climate Graphic Builder. */
+.graphic-builder-backdrop {
+  display: block;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1.25rem;
+}
+
+.graphic-builder-dialog {
+  display: flex;
+  flex-direction: column;
+  width: min(1560px, 100%);
+  height: min(920px, calc(100dvh - 2.5rem));
+  max-height: none;
+  min-height: 0;
+  margin: 0 auto;
+}
+
+.graphic-builder-dialog-header {
+  flex: 0 0 auto;
+}
+
+.graphic-builder-layout {
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: none;
+  overflow: hidden;
+}
+
+.graphic-builder-controls {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  padding-bottom: 0;
+}
+
+.graphic-builder-buttons {
+  position: sticky;
+  bottom: 0;
+  z-index: 4;
+  margin: 0 -1.2rem;
+  padding: 0.85rem 1.2rem 1.2rem;
+  border-top: 1px solid #d8e1e8;
+  background: linear-gradient(to bottom, rgb(255 255 255 / 94%), #fff 28%);
+  box-shadow: 0 -10px 24px rgb(17 47 79 / 8%);
+}
+
+.graphic-preview-panel {
+  min-height: 0;
+  place-items: start center;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+:root[data-theme="dark"] .graphic-builder-buttons {
+  border-top-color: #34495d;
+  background: linear-gradient(to bottom, rgb(20 36 52 / 94%), #142434 28%);
+  box-shadow: 0 -10px 24px rgb(0 0 0 / 22%);
+}
+
+@media (max-width: 980px) {
+  .graphic-builder-backdrop {
+    padding: 0.75rem;
+  }
+
+  .graphic-builder-dialog {
+    height: calc(100dvh - 1.5rem);
+  }
+
+  .graphic-builder-layout {
+    display: block;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+  }
+
+  .graphic-builder-controls {
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .graphic-preview-panel {
+    min-height: 420px;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .graphic-builder-backdrop {
+    padding: 0;
+  }
+
+  .graphic-builder-dialog {
+    width: 100%;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+  }
+
+  .graphic-builder-layout {
+    max-height: none;
+  }
+
+  .graphic-builder-buttons {
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}

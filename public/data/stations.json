@@ -1,0 +1,28 @@
+[
+  {
+    "code": "KMOB",
+    "name": "Mobile, AL",
+    "city": "Mobile",
+    "state": "AL",
+    "availableYears": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latestYear": 2026
+  },
+  {
+    "code": "KPNS",
+    "name": "Pensacola, FL",
+    "city": "Pensacola",
+    "state": "FL",
+    "availableYears": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latestYear": 2026
+  }
+]

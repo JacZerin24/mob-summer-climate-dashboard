@@ -1,0 +1,235 @@
+.chart-heading {
+  gap: 1rem;
+}
+
+.chart-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 88%, var(--blue-soft));
+}
+
+.chart-mode-toggle button {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.5rem 0.82rem;
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.chart-mode-toggle button[aria-pressed="true"] {
+  color: white;
+  background: var(--blue);
+  box-shadow: 0 3px 9px rgb(20 49 75 / 14%);
+}
+
+.chart-mode-toggle button:hover,
+.chart-mode-toggle button:focus-visible {
+  outline: 2px solid transparent;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--blue) 28%, transparent);
+}
+
+.chart-stage {
+  position: relative;
+  min-width: 760px;
+}
+
+.chart-stage svg {
+  width: 100%;
+  min-width: 0;
+  border-radius: 0.65rem;
+  touch-action: pan-x pan-y;
+}
+
+.interactive-chart:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--blue) 62%, transparent);
+  outline-offset: -3px;
+}
+
+.chart-hover-guide {
+  stroke: color-mix(in srgb, var(--navy) 72%, transparent);
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.chart-hover-guide.is-visible {
+  opacity: 1;
+}
+
+.chart-point {
+  stroke-width: 1.2;
+  stroke: var(--surface);
+  pointer-events: none;
+}
+
+.chart-point.high {
+  fill: #c64b32;
+}
+
+.chart-point.low {
+  fill: #247ab5;
+}
+
+.precip-bar {
+  fill: #247ab5;
+  opacity: 0.88;
+}
+
+.precip-bar.record-tied-bar {
+  fill: #e9a85d;
+  opacity: 1;
+}
+
+.precip-bar.record-broken-bar {
+  fill: #c64b32;
+  opacity: 1;
+}
+
+.chart-line.precip-record,
+.legend-swatch.precip-record {
+  stroke: #6d4aa2;
+  background: #6d4aa2;
+  stroke-dasharray: 7 6;
+}
+
+.legend-swatch.precip-observed {
+  background: #247ab5;
+}
+
+.chart-tooltip {
+  position: absolute;
+  z-index: 5;
+  top: 0.65rem;
+  min-width: 210px;
+  max-width: 250px;
+  padding: 0.75rem 0.8rem;
+  border: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
+  border-radius: 0.75rem;
+  color: var(--navy);
+  background: color-mix(in srgb, var(--surface) 95%, transparent);
+  box-shadow: 0 12px 28px rgb(20 49 75 / 18%);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+  transform: translateX(-50%);
+}
+
+.chart-tooltip.align-left {
+  transform: translateX(0);
+}
+
+.chart-tooltip.align-right {
+  transform: translateX(-100%);
+}
+
+.chart-tooltip-date {
+  margin: 0 0 0.55rem;
+  color: var(--navy);
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+.chart-tooltip dl {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.28rem 0.8rem;
+  margin: 0;
+  font-size: 0.78rem;
+}
+
+.chart-tooltip dt {
+  color: var(--muted);
+}
+
+.chart-tooltip dd {
+  margin: 0;
+  color: var(--navy);
+  font-weight: 850;
+  text-align: right;
+}
+
+.chart-instructions {
+  margin: 0.5rem 0 0.8rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+:root[data-theme="dark"] .chart-mode-toggle {
+  background: #0f1e2c;
+}
+
+:root[data-theme="dark"] .chart-mode-toggle button[aria-pressed="true"] {
+  color: #071421;
+  background: #65bdf2;
+}
+
+:root[data-theme="dark"] .chart-hover-guide {
+  stroke: #d9e9f5;
+}
+
+:root[data-theme="dark"] .chart-point {
+  stroke: #142434;
+}
+
+:root[data-theme="dark"] .chart-point.high {
+  fill: #ff8a72;
+}
+
+:root[data-theme="dark"] .chart-point.low,
+:root[data-theme="dark"] .precip-bar,
+:root[data-theme="dark"] .legend-swatch.precip-observed {
+  fill: #65bdf2;
+  background: #65bdf2;
+}
+
+:root[data-theme="dark"] .precip-bar.record-tied-bar {
+  fill: #f6b45f;
+}
+
+:root[data-theme="dark"] .precip-bar.record-broken-bar {
+  fill: #f0783d;
+}
+
+:root[data-theme="dark"] .chart-line.precip-record,
+:root[data-theme="dark"] .legend-swatch.precip-record {
+  stroke: #c7a2ff;
+  background: #c7a2ff;
+}
+
+:root[data-theme="dark"] .chart-tooltip {
+  color: #eef7ff;
+  background: rgb(15 30 44 / 96%);
+  border-color: #40576b;
+  box-shadow: 0 14px 32px rgb(0 0 0 / 35%);
+}
+
+:root[data-theme="dark"] .chart-tooltip-date,
+:root[data-theme="dark"] .chart-tooltip dd {
+  color: #eef7ff;
+}
+
+@media (max-width: 760px) {
+  .chart-heading {
+    align-items: stretch;
+  }
+
+  .chart-mode-toggle {
+    align-self: stretch;
+  }
+
+  .chart-mode-toggle button {
+    flex: 1;
+  }
+
+  .chart-tooltip {
+    min-width: 190px;
+  }
+}

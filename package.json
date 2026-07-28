@@ -1,0 +1,21 @@
+{
+  "name": "mob-summer-climate-dashboard",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test",
+    "build:references": "python scripts/build_operational_reference_data.py",
+    "update:data": "python scripts/update_live_data.py --year 2026",
+    "audit:data": "python scripts/audit_dashboard_data.py"
+  },
+  "devDependencies": {
+    "vite": "^8.1.4"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

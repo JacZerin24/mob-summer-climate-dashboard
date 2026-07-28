@@ -1,0 +1,12 @@
+.source-note {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+footer p { line-height: 1.6; }
+footer a { color: var(--blue); font-weight: 750; }
+footer a:hover, footer a:focus-visible { text-decoration-thickness: 2px; }
+
+.hazard-pill { white-space: normal; line-height: 1.25; }
