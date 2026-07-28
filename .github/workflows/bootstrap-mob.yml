@@ -83,14 +83,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: mob/package-lock.json
 
       - name: Install dependencies and test dashboard
         if: steps.configure.outputs.status == '0'
         working-directory: mob
         run: |
-          npm ci
+          npm install
           npm test
           npm run build
 
