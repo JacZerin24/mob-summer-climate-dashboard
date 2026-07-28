@@ -6,6 +6,11 @@ on:
     paths:
       - ".bootstrap/**"
       - ".github/workflows/bootstrap-mob.yml"
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - ".bootstrap/**"
+      - ".github/workflows/bootstrap-mob.yml"
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
@@ -25,6 +30,7 @@ jobs:
       - name: Check out MOB repository
         uses: actions/checkout@v5
         with:
+          ref: main
           path: mob
 
       - name: Check out working LIX dashboard
