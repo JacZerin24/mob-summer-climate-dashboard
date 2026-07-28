@@ -1,0 +1,508 @@
+{
+  "generatedAt": "2026-07-28T15:38:48+00:00",
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "stations": {
+    "KMOB": {
+      "climatology": {
+        "2023": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013894",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013894.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "MOBthr",
+              "stationName": "Mobile Area",
+              "sourceIds": [
+                "MOBthr 9"
+              ],
+              "throughYear": 2022,
+              "periodOfRecord": {
+                "start": "1871-01-01",
+                "end": "2022-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2024": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013894",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013894.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "MOBthr",
+              "stationName": "Mobile Area",
+              "sourceIds": [
+                "MOBthr 9"
+              ],
+              "throughYear": 2023,
+              "periodOfRecord": {
+                "start": "1871-01-01",
+                "end": "2023-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2025": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013894",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013894.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "MOBthr",
+              "stationName": "Mobile Area",
+              "sourceIds": [
+                "MOBthr 9"
+              ],
+              "throughYear": 2024,
+              "periodOfRecord": {
+                "start": "1871-01-01",
+                "end": "2024-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2026": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013894",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013894.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "MOBthr",
+              "stationName": "Mobile Area",
+              "sourceIds": [
+                "MOBthr 9"
+              ],
+              "throughYear": 2025,
+              "periodOfRecord": {
+                "start": "1871-01-01",
+                "end": "2025-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        }
+      },
+      "seasons": {
+        "2023": {
+          "rows": 122,
+          "dataThrough": "2023-09-30",
+          "hazardDays": 41,
+          "hazardCounts": {
+            "HT.Y": 34,
+            "XH.A": 11,
+            "XH.W": 10
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2024": {
+          "rows": 122,
+          "dataThrough": "2024-09-30",
+          "hazardDays": 35,
+          "hazardCounts": {
+            "HT.Y": 34,
+            "XH.A": 0,
+            "XH.W": 1
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2025": {
+          "rows": 122,
+          "dataThrough": "2025-09-30",
+          "hazardDays": 11,
+          "hazardCounts": {
+            "HT.Y": 11,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2026": {
+          "rows": 57,
+          "dataThrough": "2026-07-27",
+          "hazardDays": 3,
+          "hazardCounts": {
+            "HT.Y": 3,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 52,
+            "IEM provisional fallback": 5
+          }
+        }
+      },
+      "history": {
+        "source": {
+          "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+          "dataset": "ACIS ThreadEx daily climate series",
+          "stationId": "MOBthr",
+          "stationName": "Mobile Area",
+          "sourceIds": [
+            "MOBthr 9"
+          ],
+          "periodOfRecord": {
+            "start": "1871-01-01",
+            "end": "2025-12-31"
+          },
+          "basis": "Operational threaded climate series used for station records",
+          "url": "https://data.rcc-acis.org/StnData",
+          "recordThrough": 2025,
+          "precipRankingThrough": 2025
+        },
+        "tables": 5,
+        "monthlyPrecipMonths": [
+          "06",
+          "07",
+          "08",
+          "09"
+        ]
+      }
+    },
+    "KPNS": {
+      "climatology": {
+        "2023": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013899",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013899.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "PNSthr",
+              "stationName": "Pensacola Area",
+              "sourceIds": [
+                "PNSthr 9"
+              ],
+              "throughYear": 2022,
+              "periodOfRecord": {
+                "start": "1879-11-01",
+                "end": "2022-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2024": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013899",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013899.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "PNSthr",
+              "stationName": "Pensacola Area",
+              "sourceIds": [
+                "PNSthr 9"
+              ],
+              "throughYear": 2023,
+              "periodOfRecord": {
+                "start": "1879-11-01",
+                "end": "2023-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2025": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013899",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013899.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "PNSthr",
+              "stationName": "Pensacola Area",
+              "sourceIds": [
+                "PNSthr 9"
+              ],
+              "throughYear": 2024,
+              "periodOfRecord": {
+                "start": "1879-11-01",
+                "end": "2024-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2026": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013899",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013899.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS ThreadEx daily climate series",
+              "stationId": "PNSthr",
+              "stationName": "Pensacola Area",
+              "sourceIds": [
+                "PNSthr 9"
+              ],
+              "throughYear": 2025,
+              "periodOfRecord": {
+                "start": "1879-11-01",
+                "end": "2025-12-31"
+              },
+              "basis": "Operational threaded climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        }
+      },
+      "seasons": {
+        "2023": {
+          "rows": 122,
+          "dataThrough": "2023-09-30",
+          "hazardDays": 37,
+          "hazardCounts": {
+            "HT.Y": 29,
+            "XH.A": 11,
+            "XH.W": 10
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2024": {
+          "rows": 122,
+          "dataThrough": "2024-09-30",
+          "hazardDays": 32,
+          "hazardCounts": {
+            "HT.Y": 32,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2025": {
+          "rows": 122,
+          "dataThrough": "2025-09-30",
+          "hazardDays": 11,
+          "hazardCounts": {
+            "HT.Y": 11,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2026": {
+          "rows": 57,
+          "dataThrough": "2026-07-27",
+          "hazardDays": 3,
+          "hazardCounts": {
+            "HT.Y": 3,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 52,
+            "IEM provisional fallback": 5
+          }
+        }
+      },
+      "history": {
+        "source": {
+          "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+          "dataset": "ACIS ThreadEx daily climate series",
+          "stationId": "PNSthr",
+          "stationName": "Pensacola Area",
+          "sourceIds": [
+            "PNSthr 9"
+          ],
+          "periodOfRecord": {
+            "start": "1879-11-01",
+            "end": "2025-12-31"
+          },
+          "basis": "Operational threaded climate series used for station records",
+          "url": "https://data.rcc-acis.org/StnData",
+          "recordThrough": 2025,
+          "precipRankingThrough": 2025
+        },
+        "tables": 5,
+        "monthlyPrecipMonths": [
+          "06",
+          "07",
+          "08",
+          "09"
+        ]
+      }
+    }
+  },
+  "dailyPrecipRecords": {
+    "status": "pass",
+    "checkedRows": 976,
+    "stations": {
+      "KMOB": {
+        "2023": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 0
+        },
+        "2024": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 0
+        },
+        "2025": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 0
+        },
+        "2026": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 1
+        }
+      },
+      "KPNS": {
+        "2023": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 2
+        },
+        "2024": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 2
+        },
+        "2025": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 0
+        },
+        "2026": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 1
+        }
+      }
+    }
+  }
+}
