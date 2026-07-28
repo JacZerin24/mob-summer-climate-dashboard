@@ -1,0 +1,70 @@
+name: Bootstrap MOB dashboard from LIX
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".bootstrap/**"
+      - ".github/workflows/bootstrap-mob.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  port-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out MOB repository
+        uses: actions/checkout@v5
+        with:
+          path: mob
+
+      - name: Check out working LIX dashboard
+        uses: actions/checkout@v5
+        with:
+          repository: JacZerin24/lix-summer-climate-dashboard
+          ref: main
+          path: lix
+
+      - name: Copy dashboard implementation
+        run: |
+          rsync -a --delete \
+            --exclude='.git' \
+            --exclude='.bootstrap' \
+            --exclude='.github/workflows/bootstrap-mob.yml' \
+            lix/ mob/
+
+      - name: Configure Mobile and Pensacola climate sites
+        run: python mob/.bootstrap/port_to_mob.py mob
+
+      - name: Compile Python scripts
+        working-directory: mob
+        run: python -m compileall -q scripts
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: mob/package-lock.json
+
+      - name: Install dependencies and test dashboard
+        working-directory: mob
+        run: |
+          npm ci
+          npm test
+          npm run build
+
+      - name: Commit ported dashboard
+        working-directory: mob
+        run: |
+          if git diff --quiet && [[ -z "$(git status --porcelain)" ]]; then
+            echo "MOB dashboard is already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "feat: port LIX summer climate dashboard to WFO MOB"
+          git push origin HEAD:main
