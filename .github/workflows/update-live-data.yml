@@ -3,8 +3,14 @@ name: Update, audit, and deploy MOB climate dashboard
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - "public/data/**"
+    paths:
+      - "index.html"
+      - "package.json"
+      - "vite.config.js"
+      - "src/**"
+      - "scripts/**"
+      - "public/data/stations.json"
+      - "public/data/overrides/**"
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
@@ -23,7 +29,7 @@ permissions:
 
 concurrency:
   group: mob-climate-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh-audit-build:
