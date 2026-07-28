@@ -1,4 +1,4 @@
-name: Inspect MOB deployment status
+name: Initialize and inspect MOB Pages
 
 on:
   pull_request:
@@ -15,17 +15,26 @@ jobs:
   inspect:
     runs-on: ubuntu-latest
     steps:
-      - name: Show recent workflow runs
+      - name: Initialize GitHub Pages when absent
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo "=== Recent workflow runs ==="
-          gh api "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=20" \
-            --jq '.workflow_runs[] | [.id, .name, .event, .status, (.conclusion // "pending"), .head_sha, .created_at] | @tsv'
+          if gh api "repos/${GITHUB_REPOSITORY}/pages" > /tmp/pages-before.json 2>/dev/null; then
+            echo "GitHub Pages is already initialized."
+          else
+            echo "Creating GitHub Pages site with Actions as the build source."
+            gh api --method POST "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow
+          fi
 
       - name: Show GitHub Pages configuration
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo "=== Pages configuration ==="
-          gh api "repos/${GITHUB_REPOSITORY}/pages" || true
+          gh api "repos/${GITHUB_REPOSITORY}/pages"
+
+      - name: Show recent workflow runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=10" \
+            --jq '.workflow_runs[] | [.id, .name, .event, .status, (.conclusion // "pending"), .head_sha, .created_at] | @tsv'
