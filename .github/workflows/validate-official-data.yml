@@ -1,0 +1,81 @@
+name: Validate official MOB climate data
+
+on:
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - ".data-refresh/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build official normals, records, and history
+        id: references
+        continue-on-error: true
+        run: |
+          python scripts/build_extended_reference_data.py --through-year 2025 2>&1 | tee official-reference-build.log
+
+      - name: Upload official-reference build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-reference-build-log
+          path: official-reference-build.log
+          if-no-files-found: error
+
+      - name: Stop after reference-build failure
+        if: steps.references.outcome != 'success'
+        run: exit 1
+
+      - name: Rebuild completed 2023–2025 seasons
+        run: |
+          for year in 2023 2024 2025; do
+            python scripts/update_live_data.py --year "$year" --through "$year-09-30"
+          done
+
+      - name: Refresh 2026 season and heat products
+        run: python scripts/update_live_data.py --year 2026
+
+      - name: Audit published data
+        id: audit
+        continue-on-error: true
+        run: python scripts/audit_extended_dashboard_data.py
+
+      - name: Upload generated data and audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audited-official-mob-climate-data
+          path: public/data
+          if-no-files-found: error
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run JavaScript tests
+        run: npm test
+
+      - name: Build production site
+        run: npm run build
+
+      - name: Enforce audit result
+        if: steps.audit.outcome != 'success'
+        run: exit 1
