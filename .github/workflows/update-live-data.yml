@@ -77,7 +77,7 @@ jobs:
 
       - name: Commit changed data and audit report
         run: |
-          if git diff --quiet -- public/data; then
+          if [[ -z "$(git status --porcelain -- public/data)" ]]; then
             echo "No data changes to commit."
           else
             git config user.name "github-actions[bot]"
@@ -102,16 +102,19 @@ jobs:
         run: npm run build
 
       - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
         with:
           enablement: true
 
       - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
