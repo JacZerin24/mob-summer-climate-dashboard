@@ -49,15 +49,37 @@ jobs:
             lix/ mob/
 
       - name: Configure Mobile and Pensacola climate sites
+        id: configure
+        continue-on-error: true
         run: |
-          python mob/.bootstrap/port_to_mob.py mob
-          python mob/.bootstrap/postprocess_mob.py
+          set +e
+          {
+            python mob/.bootstrap/port_to_mob.py mob
+            python mob/.bootstrap/postprocess_mob.py
+          } > mob/.bootstrap/last-run.log 2>&1
+          status=$?
+          cat mob/.bootstrap/last-run.log
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          exit "$status"
+
+      - name: Publish conversion diagnostic
+        if: steps.configure.outputs.status != '0'
+        working-directory: mob
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .bootstrap/last-run.log
+          git commit -m "debug: capture MOB bootstrap conversion failure"
+          git push origin HEAD:main
+          exit 1
 
       - name: Compile Python scripts
+        if: steps.configure.outputs.status == '0'
         working-directory: mob
         run: python -m compileall -q scripts
 
       - name: Set up Node
+        if: steps.configure.outputs.status == '0'
         uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -65,6 +87,7 @@ jobs:
           cache-dependency-path: mob/package-lock.json
 
       - name: Install dependencies and test dashboard
+        if: steps.configure.outputs.status == '0'
         working-directory: mob
         run: |
           npm ci
@@ -72,12 +95,14 @@ jobs:
           npm run build
 
       - name: Remove one-time bootstrap files
+        if: steps.configure.outputs.status == '0'
         working-directory: mob
         run: |
           rm -rf .bootstrap
           rm -f .github/workflows/bootstrap-mob.yml
 
       - name: Commit ported dashboard
+        if: steps.configure.outputs.status == '0'
         working-directory: mob
         run: |
           if git diff --quiet && [[ -z "$(git status --porcelain)" ]]; then
