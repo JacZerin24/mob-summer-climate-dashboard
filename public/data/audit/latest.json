@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T23:15:52+00:00",
+  "generatedAt": "2026-07-29T06:45:36+00:00",
   "status": "pass",
   "errors": [],
   "warnings": [],
@@ -188,17 +188,17 @@
           }
         },
         "2026": {
-          "rows": 57,
-          "dataThrough": "2026-07-27",
-          "hazardDays": 3,
+          "rows": 58,
+          "dataThrough": "2026-07-28",
+          "hazardDays": 4,
           "hazardCounts": {
-            "HT.Y": 3,
-            "XH.A": 0,
+            "HT.Y": 4,
+            "XH.A": 1,
             "XH.W": 0
           },
           "dailySources": {
             "NOAA/NCEI Daily Summaries": 55,
-            "IEM provisional fallback": 2
+            "IEM provisional fallback": 3
           }
         }
       },
@@ -413,17 +413,17 @@
           }
         },
         "2026": {
-          "rows": 57,
-          "dataThrough": "2026-07-27",
-          "hazardDays": 3,
+          "rows": 58,
+          "dataThrough": "2026-07-28",
+          "hazardDays": 4,
           "hazardCounts": {
             "HT.Y": 3,
-            "XH.A": 0,
-            "XH.W": 0
+            "XH.A": 1,
+            "XH.W": 1
           },
           "dailySources": {
             "NOAA/NCEI Daily Summaries": 55,
-            "IEM provisional fallback": 2
+            "IEM provisional fallback": 3
           }
         }
       },
