@@ -388,7 +388,7 @@ function drawFrame(context, title, subtitle, generatedAt, logo) {
   context.fillStyle = "#ffffff";
   context.textAlign = "left";
   context.font = font(500, 29);
-  context.fillText("New Orleans/Baton Rouge", 140, 1023);
+  context.fillText("NWS Mobile, AL", 140, 1023);
   context.font = font(800, 22);
   context.fillText("FOLLOW", 140, 1058);
   context.font = font(500, 24);
