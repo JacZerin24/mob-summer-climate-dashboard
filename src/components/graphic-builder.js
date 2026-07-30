@@ -393,7 +393,7 @@ function drawFrame(context, title, subtitle, generatedAt, logo) {
   context.fillText("FOLLOW", 140, 1058);
   context.font = font(500, 24);
   context.fillStyle = "#b5d2e8";
-  context.fillText("𝕏  f  @NWSNewOrleans", 240, 1058);
+  context.fillText("𝕏  f  @NWSMobile", 240, 1058);
 
   const timestamp = centralTimestamp(generatedAt);
   context.textAlign = "right";
