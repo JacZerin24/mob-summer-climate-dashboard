@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:44:19+00:00",
+  "generatedAt": "2026-08-05T17:53:50+00:00",
   "status": "pass",
   "errors": [],
   "warnings": [],
@@ -197,7 +197,8 @@
             "XH.W": 0
           },
           "dailySources": {
-            "IEM provisional fallback": 65
+            "NOAA/NCEI Daily Summaries": 57,
+            "IEM provisional fallback": 8
           }
         }
       },
@@ -421,7 +422,8 @@
             "XH.W": 2
           },
           "dailySources": {
-            "IEM provisional fallback": 65
+            "NOAA/NCEI Daily Summaries": 57,
+            "IEM provisional fallback": 8
           }
         }
       },
