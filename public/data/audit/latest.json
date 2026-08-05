@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T23:18:31+00:00",
+  "generatedAt": "2026-08-05T06:42:10+00:00",
   "status": "pass",
   "errors": [],
   "warnings": [],
@@ -188,8 +188,8 @@
           }
         },
         "2026": {
-          "rows": 64,
-          "dataThrough": "2026-08-03",
+          "rows": 65,
+          "dataThrough": "2026-08-04",
           "hazardDays": 6,
           "hazardCounts": {
             "HT.Y": 6,
@@ -197,7 +197,7 @@
             "XH.W": 0
           },
           "dailySources": {
-            "IEM provisional fallback": 64
+            "IEM provisional fallback": 65
           }
         }
       },
@@ -412,8 +412,8 @@
           }
         },
         "2026": {
-          "rows": 64,
-          "dataThrough": "2026-08-03",
+          "rows": 65,
+          "dataThrough": "2026-08-04",
           "hazardDays": 6,
           "hazardCounts": {
             "HT.Y": 4,
@@ -421,7 +421,7 @@
             "XH.W": 2
           },
           "dailySources": {
-            "IEM provisional fallback": 64
+            "IEM provisional fallback": 65
           }
         }
       },
