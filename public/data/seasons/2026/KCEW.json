@@ -1,0 +1,769 @@
+{
+  "station": "KCEW",
+  "year": 2026,
+  "provisional": true,
+  "dataThrough": "2026-08-06",
+  "lastUpdated": "2026-08-07T20:52:01+00:00",
+  "sources": {
+    "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
+    "maximumHeatIndex": "IEM derived maximum feels-like temperature",
+    "heatHazards": "Official NWS recent alerts plus IEM archive of NWS-issued VTEC products",
+    "stationId": "USW00013884"
+  },
+  "sourceCounts": {
+    "NOAA/NCEI Daily Summaries": 65,
+    "IEM provisional fallback": 2,
+    "mixed": 0,
+    "missing": 0
+  },
+  "observations": [
+    {
+      "date": "2026-06-01",
+      "hazards": [],
+      "high": 93,
+      "low": 69,
+      "maxHeatIndex": 103.34,
+      "precip": 0.39,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.38,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-02",
+      "hazards": [],
+      "high": 89,
+      "low": 68,
+      "maxHeatIndex": 95.18,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.38,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-03",
+      "hazards": [],
+      "high": 85,
+      "low": 64,
+      "maxHeatIndex": 86.79,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.38,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-04",
+      "hazards": [],
+      "high": 85,
+      "low": 58,
+      "maxHeatIndex": 84.09,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.38,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-05",
+      "hazards": [],
+      "high": 89,
+      "low": 60,
+      "maxHeatIndex": 89.37,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.38,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-06",
+      "hazards": [],
+      "high": 87,
+      "low": 62,
+      "maxHeatIndex": 90.24,
+      "precip": 0.02,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.4,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-07",
+      "hazards": [],
+      "high": 84,
+      "low": 68,
+      "maxHeatIndex": 88.27,
+      "precip": 0.07,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.47,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-08",
+      "hazards": [],
+      "high": 91,
+      "low": 66,
+      "maxHeatIndex": 92.15,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.47,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-09",
+      "hazards": [],
+      "high": 89,
+      "low": 73,
+      "maxHeatIndex": 96.78,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.47,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-10",
+      "hazards": [],
+      "high": 94,
+      "low": 70,
+      "maxHeatIndex": 96.73,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.47,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-11",
+      "hazards": [],
+      "high": 93,
+      "low": 68,
+      "maxHeatIndex": 95.57,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.47,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-12",
+      "hazards": [],
+      "high": 95,
+      "low": 70,
+      "maxHeatIndex": 98.6,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.47,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-13",
+      "hazards": [],
+      "high": 96,
+      "low": 72,
+      "maxHeatIndex": 104.75,
+      "precip": 0.02,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.49,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-14",
+      "hazards": [],
+      "high": 97,
+      "low": 72,
+      "maxHeatIndex": 104.58,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.49,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-15",
+      "hazards": [],
+      "high": 94,
+      "low": 74,
+      "maxHeatIndex": 98.87,
+      "precip": 0.04,
+      "precipTrace": false,
+      "accumulatedPrecip": 25.53,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-16",
+      "hazards": [],
+      "high": 78,
+      "low": 73,
+      "maxHeatIndex": 78,
+      "precip": 1.14,
+      "precipTrace": false,
+      "accumulatedPrecip": 26.67,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-17",
+      "hazards": [],
+      "high": 88,
+      "low": 73,
+      "maxHeatIndex": 96.06,
+      "precip": 0.07,
+      "precipTrace": false,
+      "accumulatedPrecip": 26.74,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-18",
+      "hazards": [],
+      "high": 83,
+      "low": 72,
+      "maxHeatIndex": 92.93,
+      "precip": 1.35,
+      "precipTrace": false,
+      "accumulatedPrecip": 28.09,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-19",
+      "hazards": [],
+      "high": 91,
+      "low": 70,
+      "maxHeatIndex": 104.6,
+      "precip": 1.6,
+      "precipTrace": false,
+      "accumulatedPrecip": 29.69,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-20",
+      "hazards": [],
+      "high": 91,
+      "low": 71,
+      "maxHeatIndex": 98.35,
+      "precip": 0.05,
+      "precipTrace": false,
+      "accumulatedPrecip": 29.74,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-21",
+      "hazards": [],
+      "high": 88,
+      "low": 69,
+      "maxHeatIndex": 99.02,
+      "precip": 2.41,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.15,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-22",
+      "hazards": [],
+      "high": 92,
+      "low": 72,
+      "maxHeatIndex": 103.21,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.15,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-23",
+      "hazards": [],
+      "high": 93,
+      "low": 74,
+      "maxHeatIndex": 100.91,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.15,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-24",
+      "hazards": [],
+      "high": 91,
+      "low": 70,
+      "maxHeatIndex": 96.74,
+      "precip": 0.22,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.37,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-25",
+      "hazards": [],
+      "high": 89,
+      "low": 70,
+      "maxHeatIndex": 93.15,
+      "precip": 0.02,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.39,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-26",
+      "hazards": [],
+      "high": 87,
+      "low": 72,
+      "maxHeatIndex": 98.39,
+      "precip": 0.43,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.82,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-27",
+      "hazards": [],
+      "high": 94,
+      "low": 70,
+      "maxHeatIndex": 100.1,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.82,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-28",
+      "hazards": [],
+      "high": 95,
+      "low": 70,
+      "maxHeatIndex": 101.93,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.82,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-29",
+      "hazards": [],
+      "high": 96,
+      "low": 72,
+      "maxHeatIndex": 103.34,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.82,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-06-30",
+      "hazards": [
+        "HT.Y"
+      ],
+      "high": 96,
+      "low": 74,
+      "maxHeatIndex": 105.94,
+      "precip": 0.17,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.99,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-01",
+      "hazards": [],
+      "high": 94,
+      "low": 73,
+      "maxHeatIndex": 102.37,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.99,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-02",
+      "hazards": [],
+      "high": 95,
+      "low": 70,
+      "maxHeatIndex": 100.4,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.99,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-03",
+      "hazards": [],
+      "high": 96,
+      "low": 71,
+      "maxHeatIndex": 100.73,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.99,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-04",
+      "hazards": [],
+      "high": 98,
+      "low": 72,
+      "maxHeatIndex": 102.87,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.99,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-05",
+      "hazards": [],
+      "high": 94,
+      "low": 72,
+      "maxHeatIndex": 104.58,
+      "precip": 0.08,
+      "precipTrace": false,
+      "accumulatedPrecip": 33.07,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-06",
+      "hazards": [],
+      "high": 93,
+      "low": 72,
+      "maxHeatIndex": 101.84,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 33.07,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-07",
+      "hazards": [],
+      "high": 93,
+      "low": 72,
+      "maxHeatIndex": 103.47,
+      "precip": null,
+      "precipTrace": false,
+      "accumulatedPrecip": 33.07,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-08",
+      "hazards": [],
+      "high": 95,
+      "low": 72,
+      "maxHeatIndex": 100.4,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 33.07,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-09",
+      "hazards": [],
+      "high": 93,
+      "low": 74,
+      "maxHeatIndex": 101.93,
+      "precip": 0.07,
+      "precipTrace": false,
+      "accumulatedPrecip": 33.14,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-10",
+      "hazards": [],
+      "high": 96,
+      "low": 72,
+      "maxHeatIndex": 102.19,
+      "precip": 0.02,
+      "precipTrace": false,
+      "accumulatedPrecip": 33.16,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-11",
+      "hazards": [],
+      "high": 93,
+      "low": 70,
+      "maxHeatIndex": 102.19,
+      "precip": 0.5,
+      "precipTrace": false,
+      "accumulatedPrecip": 33.66,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-12",
+      "hazards": [],
+      "high": 90,
+      "low": 72,
+      "maxHeatIndex": 98.11,
+      "precip": 0.85,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.51,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-13",
+      "hazards": [],
+      "high": 86,
+      "low": 73,
+      "maxHeatIndex": 90.37,
+      "precip": 0.04,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-14",
+      "hazards": [],
+      "high": 90,
+      "low": 73,
+      "maxHeatIndex": 97.07,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-15",
+      "hazards": [],
+      "high": 93,
+      "low": 72,
+      "maxHeatIndex": 97.1,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-16",
+      "hazards": [],
+      "high": 94,
+      "low": 71,
+      "maxHeatIndex": 98.68,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-17",
+      "hazards": [],
+      "high": 95,
+      "low": 72,
+      "maxHeatIndex": 102.6,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-18",
+      "hazards": [],
+      "high": 96,
+      "low": 72,
+      "maxHeatIndex": 103.34,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-19",
+      "hazards": [],
+      "high": 94,
+      "low": 73,
+      "maxHeatIndex": 104.64,
+      "precip": 0.06,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.61,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-20",
+      "hazards": [],
+      "high": 93,
+      "low": 72,
+      "maxHeatIndex": 103.34,
+      "precip": 0.18,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.79,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-21",
+      "hazards": [],
+      "high": 87,
+      "low": 76,
+      "maxHeatIndex": 96.06,
+      "precip": 0.08,
+      "precipTrace": false,
+      "accumulatedPrecip": 34.87,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-22",
+      "hazards": [],
+      "high": 87,
+      "low": 73,
+      "maxHeatIndex": 98.39,
+      "precip": 0.28,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.15,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-23",
+      "hazards": [],
+      "high": 92,
+      "low": 72,
+      "maxHeatIndex": 100.74,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.15,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-24",
+      "hazards": [],
+      "high": 94,
+      "low": 70,
+      "maxHeatIndex": 100.1,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.15,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-25",
+      "hazards": [],
+      "high": 97,
+      "low": 72,
+      "maxHeatIndex": 102.6,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.15,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-26",
+      "hazards": [],
+      "high": 97,
+      "low": 79,
+      "maxHeatIndex": 106.19,
+      "precip": 0.01,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.16,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-27",
+      "hazards": [
+        "HT.Y"
+      ],
+      "high": 98,
+      "low": 76,
+      "maxHeatIndex": 107.33,
+      "precip": 0.06,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.22,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-28",
+      "hazards": [
+        "HT.Y",
+        "XH.A"
+      ],
+      "high": 100,
+      "low": 75,
+      "maxHeatIndex": 108.76,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.22,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-29",
+      "hazards": [
+        "HT.Y"
+      ],
+      "high": 100,
+      "low": 75,
+      "maxHeatIndex": 109.86,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.22,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-30",
+      "hazards": [
+        "HT.Y"
+      ],
+      "high": 95,
+      "low": 74,
+      "maxHeatIndex": 109.06,
+      "precip": 0.43,
+      "precipTrace": false,
+      "accumulatedPrecip": 35.65,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-07-31",
+      "hazards": [],
+      "high": 94,
+      "low": 75,
+      "maxHeatIndex": 108.69,
+      "precip": 0.72,
+      "precipTrace": false,
+      "accumulatedPrecip": 36.37,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-08-01",
+      "hazards": [],
+      "high": 93,
+      "low": 76,
+      "maxHeatIndex": 100.74,
+      "precip": 0.03,
+      "precipTrace": false,
+      "accumulatedPrecip": 36.4,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-08-02",
+      "hazards": [],
+      "high": 89,
+      "low": 75,
+      "maxHeatIndex": 101.39,
+      "precip": 0.15,
+      "precipTrace": false,
+      "accumulatedPrecip": 36.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-08-03",
+      "hazards": [],
+      "high": 87,
+      "low": 70,
+      "maxHeatIndex": 90.76,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 36.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-08-04",
+      "hazards": [],
+      "high": 92,
+      "low": 69,
+      "maxHeatIndex": 97.07,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 36.55,
+      "dailySource": "NOAA/NCEI Daily Summaries"
+    },
+    {
+      "date": "2026-08-05",
+      "hazards": [],
+      "high": 92,
+      "low": 73,
+      "maxHeatIndex": 97.35,
+      "precip": 0.03,
+      "precipTrace": false,
+      "accumulatedPrecip": 36.58,
+      "dailySource": "IEM provisional fallback"
+    },
+    {
+      "date": "2026-08-06",
+      "hazards": [],
+      "high": 92,
+      "low": 71,
+      "maxHeatIndex": 98.87,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 36.58,
+      "dailySource": "IEM provisional fallback"
+    }
+  ]
+}

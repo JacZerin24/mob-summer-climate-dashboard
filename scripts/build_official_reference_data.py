@@ -40,6 +40,7 @@ STATIONS: dict[str, dict[str, Any]] = {
         "name": "Mobile, AL",
         "ghcn": "USW00013894",
         "record_sid": "MOBthr",
+        "record_kind": "thread",
         "lat": 30.6882,
         "lon": -88.2460,
     },
@@ -47,8 +48,33 @@ STATIONS: dict[str, dict[str, Any]] = {
         "name": "Pensacola, FL",
         "ghcn": "USW00013899",
         "record_sid": "PNSthr",
+        "record_kind": "thread",
         "lat": 30.4761,
         "lon": -87.1858,
+    },
+    "KGZH": {
+        "name": "Evergreen, AL",
+        "ghcn": "USW00053820",
+        "record_sid": "USW00053820",
+        "record_kind": "ghcn",
+        "lat": 31.4158,
+        "lon": -87.0441,
+    },
+    "KCEW": {
+        "name": "Crestview, FL",
+        "ghcn": "USW00013884",
+        "record_sid": "USW00013884",
+        "record_kind": "ghcn",
+        "lat": 30.77715,
+        "lon": -86.51938,
+    },
+    "KDTS": {
+        "name": "Destin, FL",
+        "ghcn": "USW00053853",
+        "record_sid": "USW00053853",
+        "record_kind": "ghcn",
+        "lat": 30.39333,
+        "lon": -86.46738,
     },
 }
 
@@ -401,15 +427,16 @@ def acis_source(
     through_year: int,
     rows: list[dict[str, Any]],
 ) -> dict[str, Any]:
+    is_thread = meta.get("record_kind", "thread") == "thread"
     return {
         "agency": "NOAA Regional Climate Center Program / RCC ACIS",
-        "dataset": "ACIS ThreadEx daily climate series",
+        "dataset": "ACIS ThreadEx daily climate series" if is_thread else "ACIS GHCN-Daily station series",
         "stationId": meta["record_sid"],
         "stationName": acis_meta.get("name"),
         "sourceIds": acis_meta.get("sids", []),
         "throughYear": through_year,
         "periodOfRecord": source_period(rows, through_year),
-        "basis": "Operational threaded climate series used for station records",
+        "basis": "Operational threaded climate series used for station records" if is_thread else "Station-specific GHCN-Daily climate series used for station records",
         "url": ACIS_STN_DATA,
     }
 
@@ -545,7 +572,7 @@ def build(
     changed: list[Path] = []
     for code, meta in STATIONS.items():
         print(
-            f"Downloading NCEI normals and ACIS climate thread for {code} "
+            f"Downloading NCEI normals and ACIS climate series for {code} "
             f"({meta['record_sid']})..."
         )
         normals, normals_url = fetch_normals(meta["ghcn"])

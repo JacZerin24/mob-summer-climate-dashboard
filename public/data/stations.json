@@ -24,5 +24,44 @@
       2023
     ],
     "latestYear": 2026
+  },
+  {
+    "code": "KGZH",
+    "name": "Evergreen, AL",
+    "city": "Evergreen",
+    "state": "AL",
+    "availableYears": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latestYear": 2026
+  },
+  {
+    "code": "KCEW",
+    "name": "Crestview, FL",
+    "city": "Crestview",
+    "state": "FL",
+    "availableYears": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latestYear": 2026
+  },
+  {
+    "code": "KDTS",
+    "name": "Destin, FL",
+    "city": "Destin",
+    "state": "FL",
+    "availableYears": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latestYear": 2026
   }
 ]

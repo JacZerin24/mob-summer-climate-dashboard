@@ -27,6 +27,9 @@ builder.EARLIEST_YEAR = 1871
 VERIFIED_STARTS = {
     "MOBthr": date(1871, 1, 1),
     "PNSthr": date(1879, 11, 1),
+    "USW00053820": date(1997, 6, 1),
+    "USW00013884": date(1948, 1, 1),
+    "USW00053853": date(1996, 12, 2),
 }
 
 _original_fetch_acis_daily = builder.fetch_acis_daily

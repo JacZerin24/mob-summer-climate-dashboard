@@ -43,6 +43,9 @@ NWS_ALERTS_ENDPOINT = "https://api.weather.gov/alerts"
 STATIONS = {
     "KMOB": {**REFERENCE_STATIONS["KMOB"], "iem": "MOB", "network": "AL_ASOS"},
     "KPNS": {**REFERENCE_STATIONS["KPNS"], "iem": "PNS", "network": "FL_ASOS"},
+    "KGZH": {**REFERENCE_STATIONS["KGZH"], "iem": "GZH", "network": "AL_ASOS"},
+    "KCEW": {**REFERENCE_STATIONS["KCEW"], "iem": "CEW", "network": "FL_ASOS"},
+    "KDTS": {**REFERENCE_STATIONS["KDTS"], "iem": "DTS", "network": "FL_ASOS"},
 }
 
 EVENT_CODES = {

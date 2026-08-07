@@ -17,6 +17,9 @@ DISPLAY_YEARS = (2025, 2026)
 EXPECTED_RECORD_STARTS = {
     "KMOB": date(1872, 1, 1),
     "KPNS": date(1879, 11, 1),
+    "KGZH": date(1997, 6, 1),
+    "KCEW": date(1948, 1, 1),
+    "KDTS": date(1996, 12, 2),
 }
 
 
@@ -46,8 +49,13 @@ def valid_record_source(
 ) -> None:
     source_text = json.dumps(source).lower()
     expected_sid = STATIONS[station]["record_sid"]
-    if "rcc acis" not in source_text or "thread" not in source_text:
-        errors.append(f"{station} {context}: records are not attributed to the RCC ACIS climate thread")
+    record_kind = STATIONS[station].get("record_kind", "thread")
+    if "rcc acis" not in source_text:
+        errors.append(f"{station} {context}: records are not attributed to RCC ACIS")
+    if record_kind == "thread" and "thread" not in source_text:
+        errors.append(f"{station} {context}: expected a ThreadEx operational climate series")
+    if record_kind == "ghcn" and "ghcn" not in source_text:
+        errors.append(f"{station} {context}: expected a station-specific GHCN-Daily climate series")
     if source.get("stationId") != expected_sid:
         errors.append(
             f"{station} {context}: expected record station {expected_sid}, found {source.get('stationId')}"
@@ -60,7 +68,7 @@ def valid_record_source(
         start = None
     if start is None or start > EXPECTED_RECORD_STARTS[station]:
         errors.append(
-            f"{station} {context}: record period starts at {start_text}, later than expected climate thread {EXPECTED_RECORD_STARTS[station]}"
+            f"{station} {context}: record period starts at {start_text}, later than expected {EXPECTED_RECORD_STARTS[station]}"
         )
 
 
@@ -262,7 +270,7 @@ def audit(data_root: Path) -> dict[str, Any]:
 
     if total_2026_hazard_days == 0:
         errors.append(
-            "2026 heat-product archive contains zero product days across both sites"
+            "2026 heat-product archive contains zero product days across all sites"
         )
 
     return {
