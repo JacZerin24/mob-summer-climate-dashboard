@@ -286,7 +286,7 @@ async function render(stations) {
             <p class="eyebrow">WFO MOB climate statistics</p>
             <h1>Summer Climate Dashboard</h1>
             <p class="header-copy">
-              Audited daily observations, 1991–2020 normals, operational climate records, heat products, rainfall, and historical context for Mobile and Pensacola.
+              Audited daily observations, 1991–2020 normals, operational climate records, heat products, rainfall, and historical context for Mobile, Pensacola, Evergreen, Crestview, and Destin.
             </p>
           </div>
           <div class="header-actions">

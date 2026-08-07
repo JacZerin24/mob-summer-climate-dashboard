@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T17:07:38+00:00",
+  "generatedAt": "2026-08-07T20:52:02+00:00",
   "status": "pass",
   "errors": [],
   "warnings": [],
@@ -453,11 +453,761 @@
           "09"
         ]
       }
+    },
+    "KGZH": {
+      "climatology": {
+        "2023": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053820",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053820.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053820",
+              "stationName": "EVERGREEN MIDDLETON FIELD",
+              "sourceIds": [
+                "53820 1",
+                "GZH 3",
+                "39J 3",
+                "KGZH 5",
+                "USW00053820 6",
+                "USW00053820 32"
+              ],
+              "throughYear": 2022,
+              "periodOfRecord": {
+                "start": "1997-06-01",
+                "end": "2022-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2024": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053820",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053820.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053820",
+              "stationName": "EVERGREEN MIDDLETON FIELD",
+              "sourceIds": [
+                "53820 1",
+                "GZH 3",
+                "39J 3",
+                "KGZH 5",
+                "USW00053820 6",
+                "USW00053820 32"
+              ],
+              "throughYear": 2023,
+              "periodOfRecord": {
+                "start": "1997-06-01",
+                "end": "2023-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2025": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053820",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053820.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053820",
+              "stationName": "EVERGREEN MIDDLETON FIELD",
+              "sourceIds": [
+                "53820 1",
+                "GZH 3",
+                "39J 3",
+                "KGZH 5",
+                "USW00053820 6",
+                "USW00053820 32"
+              ],
+              "throughYear": 2024,
+              "periodOfRecord": {
+                "start": "1997-06-01",
+                "end": "2024-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2026": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053820",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053820.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053820",
+              "stationName": "EVERGREEN MIDDLETON FIELD",
+              "sourceIds": [
+                "53820 1",
+                "GZH 3",
+                "39J 3",
+                "KGZH 5",
+                "USW00053820 6",
+                "USW00053820 32"
+              ],
+              "throughYear": 2025,
+              "periodOfRecord": {
+                "start": "1997-06-01",
+                "end": "2025-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        }
+      },
+      "seasons": {
+        "2023": {
+          "rows": 122,
+          "dataThrough": "2023-09-30",
+          "hazardDays": 27,
+          "hazardCounts": {
+            "HT.Y": 23,
+            "XH.A": 3,
+            "XH.W": 5
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2024": {
+          "rows": 122,
+          "dataThrough": "2024-09-30",
+          "hazardDays": 21,
+          "hazardCounts": {
+            "HT.Y": 21,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2025": {
+          "rows": 122,
+          "dataThrough": "2025-09-30",
+          "hazardDays": 5,
+          "hazardCounts": {
+            "HT.Y": 5,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2026": {
+          "rows": 67,
+          "dataThrough": "2026-08-06",
+          "hazardDays": 4,
+          "hazardCounts": {
+            "HT.Y": 4,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 65,
+            "IEM provisional fallback": 2
+          }
+        }
+      },
+      "history": {
+        "source": {
+          "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+          "dataset": "ACIS GHCN-Daily station series",
+          "stationId": "USW00053820",
+          "stationName": "EVERGREEN MIDDLETON FIELD",
+          "sourceIds": [
+            "53820 1",
+            "GZH 3",
+            "39J 3",
+            "KGZH 5",
+            "USW00053820 6",
+            "USW00053820 32"
+          ],
+          "periodOfRecord": {
+            "start": "1997-06-01",
+            "end": "2025-12-31"
+          },
+          "basis": "Station-specific GHCN-Daily climate series used for station records",
+          "url": "https://data.rcc-acis.org/StnData",
+          "recordThrough": 2025,
+          "precipRankingThrough": 2025
+        },
+        "tables": 5,
+        "monthlyPrecipMonths": [
+          "06",
+          "07",
+          "08",
+          "09"
+        ]
+      }
+    },
+    "KCEW": {
+      "climatology": {
+        "2023": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013884",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013884.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00013884",
+              "stationName": "CRESTVIEW FAA/AP",
+              "sourceIds": [
+                "13884 1",
+                "081986 2",
+                "CEW 3",
+                "KCEW 5",
+                "USW00013884 6",
+                "CEW 7",
+                "USW00013884 32"
+              ],
+              "throughYear": 2022,
+              "periodOfRecord": {
+                "start": "1948-01-01",
+                "end": "2022-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2024": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013884",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013884.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00013884",
+              "stationName": "CRESTVIEW FAA/AP",
+              "sourceIds": [
+                "13884 1",
+                "081986 2",
+                "CEW 3",
+                "KCEW 5",
+                "USW00013884 6",
+                "CEW 7",
+                "USW00013884 32"
+              ],
+              "throughYear": 2023,
+              "periodOfRecord": {
+                "start": "1948-01-01",
+                "end": "2023-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2025": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013884",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013884.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00013884",
+              "stationName": "CRESTVIEW FAA/AP",
+              "sourceIds": [
+                "13884 1",
+                "081986 2",
+                "CEW 3",
+                "KCEW 5",
+                "USW00013884 6",
+                "CEW 7",
+                "USW00013884 32"
+              ],
+              "throughYear": 2024,
+              "periodOfRecord": {
+                "start": "1948-01-01",
+                "end": "2024-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2026": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00013884",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00013884.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00013884",
+              "stationName": "CRESTVIEW FAA/AP",
+              "sourceIds": [
+                "13884 1",
+                "081986 2",
+                "CEW 3",
+                "KCEW 5",
+                "USW00013884 6",
+                "CEW 7",
+                "USW00013884 32"
+              ],
+              "throughYear": 2025,
+              "periodOfRecord": {
+                "start": "1948-01-01",
+                "end": "2025-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        }
+      },
+      "seasons": {
+        "2023": {
+          "rows": 122,
+          "dataThrough": "2023-09-30",
+          "hazardDays": 29,
+          "hazardCounts": {
+            "HT.Y": 24,
+            "XH.A": 7,
+            "XH.W": 6
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2024": {
+          "rows": 122,
+          "dataThrough": "2024-09-30",
+          "hazardDays": 25,
+          "hazardCounts": {
+            "HT.Y": 25,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2025": {
+          "rows": 122,
+          "dataThrough": "2025-09-30",
+          "hazardDays": 10,
+          "hazardCounts": {
+            "HT.Y": 10,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2026": {
+          "rows": 67,
+          "dataThrough": "2026-08-06",
+          "hazardDays": 5,
+          "hazardCounts": {
+            "HT.Y": 5,
+            "XH.A": 1,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 65,
+            "IEM provisional fallback": 2
+          }
+        }
+      },
+      "history": {
+        "source": {
+          "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+          "dataset": "ACIS GHCN-Daily station series",
+          "stationId": "USW00013884",
+          "stationName": "CRESTVIEW FAA/AP",
+          "sourceIds": [
+            "13884 1",
+            "081986 2",
+            "CEW 3",
+            "KCEW 5",
+            "USW00013884 6",
+            "CEW 7",
+            "USW00013884 32"
+          ],
+          "periodOfRecord": {
+            "start": "1948-01-01",
+            "end": "2025-12-31"
+          },
+          "basis": "Station-specific GHCN-Daily climate series used for station records",
+          "url": "https://data.rcc-acis.org/StnData",
+          "recordThrough": 2025,
+          "precipRankingThrough": 2025
+        },
+        "tables": 5,
+        "monthlyPrecipMonths": [
+          "06",
+          "07",
+          "08",
+          "09"
+        ]
+      }
+    },
+    "KDTS": {
+      "climatology": {
+        "2023": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053853",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053853.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053853",
+              "stationName": "DESTIN FORT WALTON BEACH AP",
+              "sourceIds": [
+                "53853 1",
+                "DTS 3",
+                "KDTS 5",
+                "USW00053853 6",
+                "USW00053853 32"
+              ],
+              "throughYear": 2022,
+              "periodOfRecord": {
+                "start": "1996-12-02",
+                "end": "2022-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2024": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053853",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053853.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053853",
+              "stationName": "DESTIN FORT WALTON BEACH AP",
+              "sourceIds": [
+                "53853 1",
+                "DTS 3",
+                "KDTS 5",
+                "USW00053853 6",
+                "USW00053853 32"
+              ],
+              "throughYear": 2023,
+              "periodOfRecord": {
+                "start": "1996-12-02",
+                "end": "2023-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2025": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053853",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053853.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053853",
+              "stationName": "DESTIN FORT WALTON BEACH AP",
+              "sourceIds": [
+                "53853 1",
+                "DTS 3",
+                "KDTS 5",
+                "USW00053853 6",
+                "USW00053853 32"
+              ],
+              "throughYear": 2024,
+              "periodOfRecord": {
+                "start": "1996-12-02",
+                "end": "2024-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        },
+        "2026": {
+          "rows": 122,
+          "source": {
+            "normals": {
+              "agency": "NOAA National Centers for Environmental Information",
+              "dataset": "U.S. Climate Normals 1991-2020, Daily",
+              "stationId": "USW00053853",
+              "url": "https://www.ncei.noaa.gov/data/normals-daily/1991-2020/access/USW00053853.csv"
+            },
+            "records": {
+              "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+              "dataset": "ACIS GHCN-Daily station series",
+              "stationId": "USW00053853",
+              "stationName": "DESTIN FORT WALTON BEACH AP",
+              "sourceIds": [
+                "53853 1",
+                "DTS 3",
+                "KDTS 5",
+                "USW00053853 6",
+                "USW00053853 32"
+              ],
+              "throughYear": 2025,
+              "periodOfRecord": {
+                "start": "1996-12-02",
+                "end": "2025-12-31"
+              },
+              "basis": "Station-specific GHCN-Daily climate series used for station records",
+              "url": "https://data.rcc-acis.org/StnData",
+              "includes": [
+                "daily cool-high record",
+                "daily precipitation record",
+                "daily record high",
+                "daily record low",
+                "daily warm-low record"
+              ]
+            }
+          },
+          "complete": true
+        }
+      },
+      "seasons": {
+        "2023": {
+          "rows": 122,
+          "dataThrough": "2023-09-30",
+          "hazardDays": 29,
+          "hazardCounts": {
+            "HT.Y": 24,
+            "XH.A": 7,
+            "XH.W": 7
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2024": {
+          "rows": 122,
+          "dataThrough": "2024-09-30",
+          "hazardDays": 27,
+          "hazardCounts": {
+            "HT.Y": 27,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2025": {
+          "rows": 122,
+          "dataThrough": "2025-09-30",
+          "hazardDays": 11,
+          "hazardCounts": {
+            "HT.Y": 11,
+            "XH.A": 0,
+            "XH.W": 0
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 122
+          }
+        },
+        "2026": {
+          "rows": 67,
+          "dataThrough": "2026-08-06",
+          "hazardDays": 6,
+          "hazardCounts": {
+            "HT.Y": 4,
+            "XH.A": 1,
+            "XH.W": 2
+          },
+          "dailySources": {
+            "NOAA/NCEI Daily Summaries": 65,
+            "IEM provisional fallback": 2
+          }
+        }
+      },
+      "history": {
+        "source": {
+          "agency": "NOAA Regional Climate Center Program / RCC ACIS",
+          "dataset": "ACIS GHCN-Daily station series",
+          "stationId": "USW00053853",
+          "stationName": "DESTIN FORT WALTON BEACH AP",
+          "sourceIds": [
+            "53853 1",
+            "DTS 3",
+            "KDTS 5",
+            "USW00053853 6",
+            "USW00053853 32"
+          ],
+          "periodOfRecord": {
+            "start": "1996-12-02",
+            "end": "2025-12-31"
+          },
+          "basis": "Station-specific GHCN-Daily climate series used for station records",
+          "url": "https://data.rcc-acis.org/StnData",
+          "recordThrough": 2025,
+          "precipRankingThrough": 2025
+        },
+        "tables": 5,
+        "monthlyPrecipMonths": [
+          "06",
+          "07",
+          "08",
+          "09"
+        ]
+      }
     }
   },
   "dailyPrecipRecords": {
     "status": "pass",
-    "checkedRows": 976,
+    "checkedRows": 2440,
     "stations": {
       "KMOB": {
         "2023": {
@@ -496,6 +1246,72 @@
           "checkedRows": 122,
           "observedTies": 0,
           "observedBreaks": 0
+        },
+        "2026": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 1
+        }
+      },
+      "KGZH": {
+        "2023": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 2
+        },
+        "2024": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 6
+        },
+        "2025": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 1
+        },
+        "2026": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 3
+        }
+      },
+      "KCEW": {
+        "2023": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 1
+        },
+        "2024": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 2
+        },
+        "2025": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 0
+        },
+        "2026": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 1
+        }
+      },
+      "KDTS": {
+        "2023": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 3
+        },
+        "2024": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 4
+        },
+        "2025": {
+          "checkedRows": 122,
+          "observedTies": 0,
+          "observedBreaks": 3
         },
         "2026": {
           "checkedRows": 122,
