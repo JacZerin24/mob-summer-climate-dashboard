@@ -1,3 +1,3 @@
 Trigger the one-time workflow that adds KGZH, KCEW, and KDTS to the MOB summer climate dashboard.
 
-Retrigger after workflow registration on main.
+Run under the updated validation workflow.
