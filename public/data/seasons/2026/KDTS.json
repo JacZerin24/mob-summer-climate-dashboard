@@ -2,8 +2,8 @@
   "station": "KDTS",
   "year": 2026,
   "provisional": true,
-  "dataThrough": "2026-08-11",
-  "lastUpdated": "2026-08-12T17:14:36+00:00",
+  "dataThrough": "2026-08-12",
+  "lastUpdated": "2026-08-13T05:49:07+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -12,7 +12,7 @@
   },
   "sourceCounts": {
     "NOAA/NCEI Daily Summaries": 70,
-    "IEM provisional fallback": 2,
+    "IEM provisional fallback": 3,
     "mixed": 0,
     "missing": 0
   },
@@ -804,7 +804,7 @@
       "date": "2026-08-10",
       "hazards": [],
       "high": 90,
-      "low": 82,
+      "low": 81,
       "maxHeatIndex": 101.84,
       "precip": 0.0,
       "precipTrace": false,
@@ -815,9 +815,20 @@
       "date": "2026-08-11",
       "hazards": [],
       "high": 92,
-      "low": 80,
+      "low": 79,
       "maxHeatIndex": 104.57,
       "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 28.92,
+      "dailySource": "IEM provisional fallback"
+    },
+    {
+      "date": "2026-08-12",
+      "hazards": [],
+      "high": 91,
+      "low": 83,
+      "maxHeatIndex": 106.04,
+      "precip": null,
       "precipTrace": false,
       "accumulatedPrecip": 28.92,
       "dailySource": "IEM provisional fallback"
