@@ -3,7 +3,7 @@
   "year": 2026,
   "provisional": true,
   "dataThrough": "2026-08-13",
-  "lastUpdated": "2026-08-14T09:16:02+00:00",
+  "lastUpdated": "2026-08-15T04:47:26+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -820,8 +820,8 @@
     {
       "date": "2026-08-12",
       "hazards": [],
-      "high": 97,
-      "low": 74,
+      "high": 98,
+      "low": 73,
       "maxHeatIndex": 106.04,
       "precip": 0,
       "precipTrace": false,
