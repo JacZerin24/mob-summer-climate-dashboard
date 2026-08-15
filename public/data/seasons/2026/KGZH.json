@@ -2,8 +2,8 @@
   "station": "KGZH",
   "year": 2026,
   "provisional": true,
-  "dataThrough": "2026-08-13",
-  "lastUpdated": "2026-08-15T04:47:26+00:00",
+  "dataThrough": "2026-08-14",
+  "lastUpdated": "2026-08-15T08:39:21+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -12,7 +12,7 @@
   },
   "sourceCounts": {
     "NOAA/NCEI Daily Summaries": 72,
-    "IEM provisional fallback": 2,
+    "IEM provisional fallback": 3,
     "mixed": 0,
     "missing": 0
   },
@@ -837,6 +837,19 @@
       "low": 74,
       "maxHeatIndex": 109.93,
       "precip": 0.12,
+      "precipTrace": false,
+      "accumulatedPrecip": 32.18,
+      "dailySource": "IEM provisional fallback"
+    },
+    {
+      "date": "2026-08-14",
+      "hazards": [
+        "HT.Y"
+      ],
+      "high": 99,
+      "low": 75,
+      "maxHeatIndex": 109.85,
+      "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.18,
       "dailySource": "IEM provisional fallback"
