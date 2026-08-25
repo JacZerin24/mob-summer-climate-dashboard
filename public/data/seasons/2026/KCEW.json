@@ -2,8 +2,8 @@
   "station": "KCEW",
   "year": 2026,
   "provisional": true,
-  "dataThrough": "2026-08-23",
-  "lastUpdated": "2026-08-25T04:54:15+00:00",
+  "dataThrough": "2026-08-24",
+  "lastUpdated": "2026-08-25T08:53:37+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -11,7 +11,7 @@
     "stationId": "USW00013884"
   },
   "sourceCounts": {
-    "NOAA/NCEI Daily Summaries": 82,
+    "NOAA/NCEI Daily Summaries": 83,
     "IEM provisional fallback": 2,
     "mixed": 0,
     "missing": 0
@@ -957,7 +957,7 @@
       "precip": 0.02,
       "precipTrace": false,
       "accumulatedPrecip": 41.44,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-08-23",
@@ -968,6 +968,17 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 41.44,
+      "dailySource": "IEM provisional fallback"
+    },
+    {
+      "date": "2026-08-24",
+      "hazards": [],
+      "high": 94,
+      "low": 72,
+      "maxHeatIndex": 102.04,
+      "precip": 0.46,
+      "precipTrace": false,
+      "accumulatedPrecip": 41.9,
       "dailySource": "IEM provisional fallback"
     }
   ]
