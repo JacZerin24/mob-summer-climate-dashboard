@@ -1,7 +1,7 @@
 {
   "station": "KGZH",
   "displayYear": 2024,
-  "generatedAt": "2026-08-30T09:28:32+00:00",
+  "generatedAt": "2026-09-06T08:07:20+00:00",
   "source": {
     "normals": {
       "agency": "NOAA National Centers for Environmental Information",
@@ -1161,8 +1161,8 @@
       "recordPrecipYears": "2017",
       "recordCoolHigh": 82,
       "recordCoolHighYears": "2004",
-      "recordLow": 56,
-      "recordLowYears": "2004"
+      "recordLow": 61,
+      "recordLowYears": "2000"
     },
     "08-15": {
       "normalHigh": 93.1,
