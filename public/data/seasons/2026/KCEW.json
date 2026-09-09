@@ -2,8 +2,8 @@
   "station": "KCEW",
   "year": 2026,
   "provisional": true,
-  "dataThrough": "2026-09-07",
-  "lastUpdated": "2026-09-09T00:16:35+00:00",
+  "dataThrough": "2026-09-08",
+  "lastUpdated": "2026-09-09T08:58:15+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -11,8 +11,8 @@
     "stationId": "USW00013884"
   },
   "sourceCounts": {
-    "NOAA/NCEI Daily Summaries": 93,
-    "IEM provisional fallback": 6,
+    "NOAA/NCEI Daily Summaries": 98,
+    "IEM provisional fallback": 2,
     "mixed": 0,
     "missing": 0
   },
@@ -1078,7 +1078,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 44.84,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-03",
@@ -1089,7 +1089,7 @@
       "precip": 0.23,
       "precipTrace": false,
       "accumulatedPrecip": 45.07,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-04",
@@ -1100,7 +1100,7 @@
       "precip": 0.21,
       "precipTrace": false,
       "accumulatedPrecip": 45.28,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-05",
@@ -1111,7 +1111,7 @@
       "precip": 0.42,
       "precipTrace": false,
       "accumulatedPrecip": 45.7,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-06",
@@ -1122,7 +1122,7 @@
       "precip": 0.09,
       "precipTrace": false,
       "accumulatedPrecip": 45.79,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-07",
@@ -1131,6 +1131,17 @@
       "low": 73,
       "maxHeatIndex": 107.33,
       "precip": 0.09,
+      "precipTrace": false,
+      "accumulatedPrecip": 45.88,
+      "dailySource": "IEM provisional fallback"
+    },
+    {
+      "date": "2026-09-08",
+      "hazards": [],
+      "high": 91,
+      "low": 72,
+      "maxHeatIndex": 98.6,
+      "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 45.88,
       "dailySource": "IEM provisional fallback"
