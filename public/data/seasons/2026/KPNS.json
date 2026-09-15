@@ -2,8 +2,8 @@
   "station": "KPNS",
   "year": 2026,
   "provisional": true,
-  "dataThrough": "2026-09-13",
-  "lastUpdated": "2026-09-15T00:38:40+00:00",
+  "dataThrough": "2026-09-14",
+  "lastUpdated": "2026-09-15T09:29:11+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -11,7 +11,7 @@
     "stationId": "USW00013899"
   },
   "sourceCounts": {
-    "NOAA/NCEI Daily Summaries": 103,
+    "NOAA/NCEI Daily Summaries": 104,
     "IEM provisional fallback": 2,
     "mixed": 0,
     "missing": 0
@@ -1190,7 +1190,7 @@
       "precip": 1.67,
       "precipTrace": false,
       "accumulatedPrecip": 45.76,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-13",
@@ -1198,6 +1198,17 @@
       "high": 91,
       "low": 75,
       "maxHeatIndex": 103.17,
+      "precip": 0.0,
+      "precipTrace": false,
+      "accumulatedPrecip": 45.76,
+      "dailySource": "IEM provisional fallback"
+    },
+    {
+      "date": "2026-09-14",
+      "hazards": [],
+      "high": 93,
+      "low": 77,
+      "maxHeatIndex": 104.58,
       "precip": 0.0,
       "precipTrace": false,
       "accumulatedPrecip": 45.76,
