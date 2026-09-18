@@ -2,8 +2,8 @@
   "station": "KMOB",
   "year": 2026,
   "provisional": true,
-  "dataThrough": "2026-09-16",
-  "lastUpdated": "2026-09-18T00:20:09+00:00",
+  "dataThrough": "2026-09-17",
+  "lastUpdated": "2026-09-18T09:00:41+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -11,8 +11,8 @@
     "stationId": "USW00013894"
   },
   "sourceCounts": {
-    "NOAA/NCEI Daily Summaries": 105,
-    "IEM provisional fallback": 3,
+    "NOAA/NCEI Daily Summaries": 107,
+    "IEM provisional fallback": 2,
     "mixed": 0,
     "missing": 0
   },
@@ -1212,7 +1212,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.48,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-15",
@@ -1223,7 +1223,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.48,
-      "dailySource": "IEM provisional fallback"
+      "dailySource": "NOAA/NCEI Daily Summaries"
     },
     {
       "date": "2026-09-16",
@@ -1231,6 +1231,17 @@
       "high": 92,
       "low": 75,
       "maxHeatIndex": 98.87,
+      "precip": 0,
+      "precipTrace": false,
+      "accumulatedPrecip": 48.48,
+      "dailySource": "IEM provisional fallback"
+    },
+    {
+      "date": "2026-09-17",
+      "hazards": [],
+      "high": 90,
+      "low": 69,
+      "maxHeatIndex": 90.49,
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.48,
