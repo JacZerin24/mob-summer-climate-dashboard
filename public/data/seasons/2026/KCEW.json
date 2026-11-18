@@ -3,7 +3,7 @@
   "year": 2026,
   "provisional": true,
   "dataThrough": "2026-09-30",
-  "lastUpdated": "2026-10-07T21:18:32+00:00",
+  "lastUpdated": "2026-11-18T17:10:15+00:00",
   "sources": {
     "dailyObservations": "NOAA/NCEI Daily Summaries; IEM provisional fallback only where NCEI is not yet available",
     "maximumHeatIndex": "IEM derived maximum feels-like temperature",
@@ -11,8 +11,8 @@
     "stationId": "USW00013884"
   },
   "sourceCounts": {
-    "NOAA/NCEI Daily Summaries": 122,
-    "IEM provisional fallback": 0,
+    "NOAA/NCEI Daily Summaries": 0,
+    "IEM provisional fallback": 122,
     "mixed": 0,
     "missing": 0
   },
@@ -26,7 +26,7 @@
       "precip": 0.39,
       "precipTrace": false,
       "accumulatedPrecip": 25.38,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-02",
@@ -37,7 +37,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.38,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-03",
@@ -48,7 +48,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.38,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-04",
@@ -59,7 +59,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.38,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-05",
@@ -70,7 +70,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.38,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-06",
@@ -81,7 +81,7 @@
       "precip": 0.02,
       "precipTrace": false,
       "accumulatedPrecip": 25.4,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-07",
@@ -92,7 +92,7 @@
       "precip": 0.07,
       "precipTrace": false,
       "accumulatedPrecip": 25.47,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-08",
@@ -103,7 +103,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.47,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-09",
@@ -114,7 +114,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.47,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-10",
@@ -125,7 +125,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.47,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-11",
@@ -136,7 +136,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.47,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-12",
@@ -147,7 +147,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.47,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-13",
@@ -158,7 +158,7 @@
       "precip": 0.02,
       "precipTrace": false,
       "accumulatedPrecip": 25.49,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-14",
@@ -169,7 +169,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 25.49,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-15",
@@ -180,7 +180,7 @@
       "precip": 0.04,
       "precipTrace": false,
       "accumulatedPrecip": 25.53,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-16",
@@ -191,7 +191,7 @@
       "precip": 1.14,
       "precipTrace": false,
       "accumulatedPrecip": 26.67,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-17",
@@ -202,7 +202,7 @@
       "precip": 0.07,
       "precipTrace": false,
       "accumulatedPrecip": 26.74,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-18",
@@ -213,7 +213,7 @@
       "precip": 1.35,
       "precipTrace": false,
       "accumulatedPrecip": 28.09,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-19",
@@ -224,7 +224,7 @@
       "precip": 1.6,
       "precipTrace": false,
       "accumulatedPrecip": 29.69,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-20",
@@ -235,7 +235,7 @@
       "precip": 0.05,
       "precipTrace": false,
       "accumulatedPrecip": 29.74,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-21",
@@ -246,7 +246,7 @@
       "precip": 2.41,
       "precipTrace": false,
       "accumulatedPrecip": 32.15,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-22",
@@ -254,10 +254,10 @@
       "high": 92,
       "low": 72,
       "maxHeatIndex": 103.21,
-      "precip": 0,
+      "precip": 0.0,
       "precipTrace": false,
       "accumulatedPrecip": 32.15,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-23",
@@ -268,7 +268,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.15,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-24",
@@ -279,7 +279,7 @@
       "precip": 0.22,
       "precipTrace": false,
       "accumulatedPrecip": 32.37,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-25",
@@ -290,7 +290,7 @@
       "precip": 0.02,
       "precipTrace": false,
       "accumulatedPrecip": 32.39,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-26",
@@ -301,7 +301,7 @@
       "precip": 0.43,
       "precipTrace": false,
       "accumulatedPrecip": 32.82,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-27",
@@ -312,7 +312,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.82,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-28",
@@ -323,7 +323,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.82,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-29",
@@ -334,7 +334,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.82,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-06-30",
@@ -347,7 +347,7 @@
       "precip": 0.17,
       "precipTrace": false,
       "accumulatedPrecip": 32.99,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-01",
@@ -358,7 +358,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.99,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-02",
@@ -369,7 +369,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.99,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-03",
@@ -380,7 +380,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.99,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-04",
@@ -391,7 +391,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 32.99,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-05",
@@ -402,7 +402,7 @@
       "precip": 0.08,
       "precipTrace": false,
       "accumulatedPrecip": 33.07,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-06",
@@ -410,10 +410,10 @@
       "high": 93,
       "low": 72,
       "maxHeatIndex": 101.84,
-      "precip": 0,
+      "precip": 0.0,
       "precipTrace": false,
       "accumulatedPrecip": 33.07,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-07",
@@ -424,7 +424,7 @@
       "precip": null,
       "precipTrace": false,
       "accumulatedPrecip": 33.07,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-08",
@@ -435,7 +435,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 33.07,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-09",
@@ -446,7 +446,7 @@
       "precip": 0.07,
       "precipTrace": false,
       "accumulatedPrecip": 33.14,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-10",
@@ -457,7 +457,7 @@
       "precip": 0.02,
       "precipTrace": false,
       "accumulatedPrecip": 33.16,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-11",
@@ -468,7 +468,7 @@
       "precip": 0.5,
       "precipTrace": false,
       "accumulatedPrecip": 33.66,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-12",
@@ -479,7 +479,7 @@
       "precip": 0.85,
       "precipTrace": false,
       "accumulatedPrecip": 34.51,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-13",
@@ -490,7 +490,7 @@
       "precip": 0.04,
       "precipTrace": false,
       "accumulatedPrecip": 34.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-14",
@@ -498,10 +498,10 @@
       "high": 90,
       "low": 73,
       "maxHeatIndex": 97.07,
-      "precip": 0,
+      "precip": 0.0,
       "precipTrace": false,
       "accumulatedPrecip": 34.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-15",
@@ -512,7 +512,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 34.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-16",
@@ -523,7 +523,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 34.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-17",
@@ -534,7 +534,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 34.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-18",
@@ -542,10 +542,10 @@
       "high": 96,
       "low": 72,
       "maxHeatIndex": 103.34,
-      "precip": 0,
+      "precip": 0.0,
       "precipTrace": false,
       "accumulatedPrecip": 34.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-19",
@@ -556,7 +556,7 @@
       "precip": 0.06,
       "precipTrace": false,
       "accumulatedPrecip": 34.61,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-20",
@@ -567,7 +567,7 @@
       "precip": 0.18,
       "precipTrace": false,
       "accumulatedPrecip": 34.79,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-21",
@@ -578,7 +578,7 @@
       "precip": 0.08,
       "precipTrace": false,
       "accumulatedPrecip": 34.87,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-22",
@@ -589,7 +589,7 @@
       "precip": 0.28,
       "precipTrace": false,
       "accumulatedPrecip": 35.15,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-23",
@@ -600,7 +600,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 35.15,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-24",
@@ -611,7 +611,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 35.15,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-25",
@@ -622,7 +622,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 35.15,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-26",
@@ -633,7 +633,7 @@
       "precip": 0.01,
       "precipTrace": false,
       "accumulatedPrecip": 35.16,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-27",
@@ -646,7 +646,7 @@
       "precip": 0.06,
       "precipTrace": false,
       "accumulatedPrecip": 35.22,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-28",
@@ -660,7 +660,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 35.22,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-29",
@@ -670,10 +670,10 @@
       "high": 100,
       "low": 75,
       "maxHeatIndex": 109.86,
-      "precip": 0,
+      "precip": 0.0,
       "precipTrace": false,
       "accumulatedPrecip": 35.22,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-30",
@@ -686,7 +686,7 @@
       "precip": 0.43,
       "precipTrace": false,
       "accumulatedPrecip": 35.65,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-07-31",
@@ -697,7 +697,7 @@
       "precip": 0.72,
       "precipTrace": false,
       "accumulatedPrecip": 36.37,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-01",
@@ -708,7 +708,7 @@
       "precip": 0.03,
       "precipTrace": false,
       "accumulatedPrecip": 36.4,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-02",
@@ -719,7 +719,7 @@
       "precip": 0.15,
       "precipTrace": false,
       "accumulatedPrecip": 36.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-03",
@@ -730,7 +730,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 36.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-04",
@@ -741,7 +741,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 36.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-05",
@@ -752,7 +752,7 @@
       "precip": 0.03,
       "precipTrace": false,
       "accumulatedPrecip": 36.58,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-06",
@@ -763,7 +763,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 36.58,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-07",
@@ -774,7 +774,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 36.58,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-08",
@@ -785,7 +785,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 36.58,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-09",
@@ -796,7 +796,7 @@
       "precip": 0.88,
       "precipTrace": false,
       "accumulatedPrecip": 37.46,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-10",
@@ -807,7 +807,7 @@
       "precip": 0.02,
       "precipTrace": false,
       "accumulatedPrecip": 37.48,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-11",
@@ -818,7 +818,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 37.48,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-12",
@@ -829,7 +829,7 @@
       "precip": 0.12,
       "precipTrace": false,
       "accumulatedPrecip": 37.6,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-13",
@@ -842,7 +842,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 37.6,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-14",
@@ -852,10 +852,10 @@
       "high": 98,
       "low": 75,
       "maxHeatIndex": 107.24,
-      "precip": 0,
+      "precip": 0.0,
       "precipTrace": false,
       "accumulatedPrecip": 37.6,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-15",
@@ -868,7 +868,7 @@
       "precip": 1.38,
       "precipTrace": false,
       "accumulatedPrecip": 38.98,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-16",
@@ -881,7 +881,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 38.98,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-17",
@@ -894,7 +894,7 @@
       "precip": 0.06,
       "precipTrace": false,
       "accumulatedPrecip": 39.04,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-18",
@@ -907,7 +907,7 @@
       "precip": 1.4,
       "precipTrace": false,
       "accumulatedPrecip": 40.44,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-19",
@@ -920,7 +920,7 @@
       "precip": 0.88,
       "precipTrace": false,
       "accumulatedPrecip": 41.32,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-20",
@@ -933,7 +933,7 @@
       "precip": 0.01,
       "precipTrace": false,
       "accumulatedPrecip": 41.33,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-21",
@@ -946,7 +946,7 @@
       "precip": 0.09,
       "precipTrace": false,
       "accumulatedPrecip": 41.42,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-22",
@@ -957,7 +957,7 @@
       "precip": 0.02,
       "precipTrace": false,
       "accumulatedPrecip": 41.44,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-23",
@@ -968,7 +968,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 41.44,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-24",
@@ -979,7 +979,7 @@
       "precip": 0.46,
       "precipTrace": false,
       "accumulatedPrecip": 41.9,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-25",
@@ -990,7 +990,7 @@
       "precip": 0.93,
       "precipTrace": false,
       "accumulatedPrecip": 42.83,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-26",
@@ -1001,7 +1001,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 42.83,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-27",
@@ -1012,7 +1012,7 @@
       "precip": 1.12,
       "precipTrace": false,
       "accumulatedPrecip": 43.95,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-28",
@@ -1023,7 +1023,7 @@
       "precip": 0.59,
       "precipTrace": false,
       "accumulatedPrecip": 44.54,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-29",
@@ -1034,7 +1034,7 @@
       "precip": 0.3,
       "precipTrace": false,
       "accumulatedPrecip": 44.84,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-30",
@@ -1045,7 +1045,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 44.84,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-08-31",
@@ -1056,7 +1056,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 44.84,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-01",
@@ -1067,7 +1067,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 44.84,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-02",
@@ -1078,7 +1078,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 44.84,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-03",
@@ -1089,7 +1089,7 @@
       "precip": 0.23,
       "precipTrace": false,
       "accumulatedPrecip": 45.07,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-04",
@@ -1100,7 +1100,7 @@
       "precip": 0.21,
       "precipTrace": false,
       "accumulatedPrecip": 45.28,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-05",
@@ -1111,7 +1111,7 @@
       "precip": 0.42,
       "precipTrace": false,
       "accumulatedPrecip": 45.7,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-06",
@@ -1122,7 +1122,7 @@
       "precip": 0.09,
       "precipTrace": false,
       "accumulatedPrecip": 45.79,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-07",
@@ -1133,7 +1133,7 @@
       "precip": 0.09,
       "precipTrace": false,
       "accumulatedPrecip": 45.88,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-08",
@@ -1144,7 +1144,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 45.88,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-09",
@@ -1155,7 +1155,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 45.88,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-10",
@@ -1166,7 +1166,7 @@
       "precip": 0.35,
       "precipTrace": false,
       "accumulatedPrecip": 46.23,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-11",
@@ -1177,7 +1177,7 @@
       "precip": 0.54,
       "precipTrace": false,
       "accumulatedPrecip": 46.77,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-12",
@@ -1188,7 +1188,7 @@
       "precip": 0.79,
       "precipTrace": false,
       "accumulatedPrecip": 47.56,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-13",
@@ -1199,7 +1199,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 47.56,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-14",
@@ -1210,7 +1210,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 47.56,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-15",
@@ -1221,7 +1221,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 47.56,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-16",
@@ -1232,7 +1232,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 47.56,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-17",
@@ -1243,7 +1243,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 47.56,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-18",
@@ -1254,7 +1254,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 47.56,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-19",
@@ -1265,7 +1265,7 @@
       "precip": 0.11,
       "precipTrace": false,
       "accumulatedPrecip": 47.67,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-20",
@@ -1276,7 +1276,7 @@
       "precip": 0.15,
       "precipTrace": false,
       "accumulatedPrecip": 47.82,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-21",
@@ -1287,7 +1287,7 @@
       "precip": 0.01,
       "precipTrace": false,
       "accumulatedPrecip": 47.83,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-22",
@@ -1298,7 +1298,7 @@
       "precip": 0.72,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-23",
@@ -1309,7 +1309,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-24",
@@ -1320,7 +1320,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-25",
@@ -1331,7 +1331,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-26",
@@ -1342,7 +1342,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-27",
@@ -1353,7 +1353,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-28",
@@ -1364,7 +1364,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-29",
@@ -1375,7 +1375,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     },
     {
       "date": "2026-09-30",
@@ -1386,7 +1386,7 @@
       "precip": 0,
       "precipTrace": false,
       "accumulatedPrecip": 48.55,
-      "dailySource": "NOAA/NCEI Daily Summaries"
+      "dailySource": "IEM provisional fallback"
     }
   ]
 }
